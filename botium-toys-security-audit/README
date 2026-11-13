@@ -15,11 +15,9 @@ Este repositorio documenta una auditoría interna integral de seguridad de la in
 ```text
 botium-toys-security-audit/
 ├── README.md                             # Informe ejecutivo y resumen integral de la auditoría
-├── docs/
 │   ├── alcance_y_objetivos_de_la_auditor_a.md         # Contexto, alcance y objetivos definidos por la Gerencia de TI
 │   ├── evaluaci_n_de_riesgos_e_inventario_de_activos.md               # Inventario de activos críticos y matriz de riesgos (8/10)
 │   └── lista_de_verificaci_n_de_cumplimiento_normativo.md          # Análisis detallado de normativas nacionales e internacionales
-└── templates/
     └── matriz_de_evaluaci_n_de_controles_csv.md         # Matriz completa de evaluación de controles (Administrativos, Técnicos y Físicos)
 
 ---
