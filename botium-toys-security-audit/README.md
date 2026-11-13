@@ -18,7 +18,6 @@ botium-toys-security-audit/
 │   ├── risk-assessment.md                # Inventario de activos críticos y matriz de riesgos (R-01 a R-06)
 │   ├── compliance-checklist.md           # Análisis detallado de normativas nacionales e internacionales
 │   └── stakeholder-memorandum.md         # Memorando ejecutivo con hallazgos y recomendaciones para gerencia
-└── templates/
     └── controls-assessment.csv           # Matriz completa de evaluación de controles (Administrativos, Técnicos y Físicos)
 ```
 
