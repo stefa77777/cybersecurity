@@ -19,6 +19,7 @@ botium-toys-security-audit/
 │   ├── evaluaci_n_de_riesgos_e_inventario_de_activos.md               # Inventario de activos críticos y matriz de riesgos (8/10)
 │   └── lista_de_verificaci_n_de_cumplimiento_normativo.md          # Análisis detallado de normativas nacionales e internacionales
     └── matriz_de_evaluaci_n_de_controles_csv.md         # Matriz completa de evaluación de controles (Administrativos, Técnicos y Físicos)
+└── memorando_para_las_partes_interesadas.md  
 
 ---
 
@@ -36,19 +37,29 @@ A solicitud de la Gerencia de TI, se realizó una auditoría interna integral de
 
 ### Alcance (Scope)
 La auditoría abarca la totalidad del programa de seguridad de Botium Toys, evaluando todos los activos gestionados por el departamento de TI, así como los procesos y procedimientos internos en los siguientes sistemas:
-* Contabilidad y gestión financiera (*Accounting*).
-* Detección y respuesta en endpoints (*EDR / Antivirus*).
-* Cortafuegos (*Firewalls*) y red interna.
-* Sistemas de Detección de Intrusiones (*IDS*).
-* Gestión de Información y Eventos de Seguridad (*SIEM*).
-* Inventario de hardware, acceso de proveedores y sistemas heredados (*legacy*).
+
+Contabilidad y gestión financiera (Accounting).
+
+Detección y respuesta en endpoints (EDR / Antivirus).
+
+Cortafuegos (Firewalls) y red interna.
+
+Sistemas de Detección de Intrusiones (IDS).
+
+Gestión de Información y Eventos de Seguridad (SIEM).
+
+Inventario de hardware, acceso de proveedores y sistemas heredados (legacy).
 
 ### Objetivos (Goals)
-1. **Alineación con NIST CSF:** Estructurar la gestión de seguridad bajo las funciones del marco NIST (especialmente *Identify* y *Protect*).
-2. **Control de acceso:** Implementar el principio de privilegios mínimos (*Least Privilege*) en la gestión de credenciales y permisos.
-3. **Fortalecimiento de controles:** Mitigar las vulnerabilidades de alto riesgo mediante controles administrativos, técnicos y físicos.
-4. **Cumplimiento normativo:** Asegurar la adhesión a leyes y estándares internacionales aplicables al comercio electrónico y la privacidad de datos.
-5. **Gobernanza:** Formalizar políticas, procedimientos y planes de recuperación ante desastres.
+1.Alineación con NIST CSF: Estructurar la gestión de seguridad bajo las funciones del marco NIST (especialmente Identify y Protect).
+
+2.Control de acceso: Implementar el principio de privilegios mínimos (Least Privilege) en la gestión de credenciales y permisos.
+
+3.Fortalecimiento de controles: Mitigar las vulnerabilidades de alto riesgo mediante controles administrativos, técnicos y físicos.
+
+4.Cumplimiento normativo: Asegurar la adhesión a leyes y estándares internacionales aplicables al comercio electrónico y la privacidad de datos.
+
+5.Gobernanza: Formalizar políticas, procedimientos y planes de recuperación ante desastres.
 
 ---
 
@@ -72,7 +83,21 @@ La auditoría abarca la totalidad del programa de seguridad de Botium Toys, eval
 
 ## 4. Evaluación de Controles (Controls Assessment)
 
-> *Ver archivo descargable en formato tabla interactiva: [`templates/controls-assessment.csv`](templates/controls-assessment.csv).*
+Ver matriz completa de riesgos e inventario detallado en docs/risk-assessment.md.
+
+Resumen de Activos Críticos (Función NIST CSF: Identify)
+
+Infraestructura Local (On-Premises): Equipos y servidores ubicados en la sede física para operaciones internas del negocio (Criticidad: Alta).
+
+Dispositivos de Usuario Final: Computadoras de escritorio, laptops, teléfonos inteligentes, estaciones de trabajo remotas, periféricos y cámaras de vigilancia (Criticidad: Media / Alta).
+
+Sistemas, Software y Servicios: Plataformas de contabilidad, telecomunicaciones, bases de datos, herramientas de seguridad, tienda de comercio electrónico (e-commerce) y gestión de inventario (Criticidad: Crítica).
+
+Conectividad y Red: Acceso a Internet corporativo, red interna (LAN/Wi-Fi) y servicios de alojamiento en centros de datos (data center hosting) (Criticidad: Crítica).
+
+Gestión de Terceros y Datos: Gestión de acceso de proveedores (vendors) y sistemas de retención y almacenamiento de datos de clientes y empleados (Criticidad: Alta).
+
+Seguridad Física y Sistemas Legacy: Lectores de credenciales (badge readers) y sistemas heredados (end-of-life) sin soporte oficial que requieren monitoreo manual (Criticidad: Alta).
 
 ### 4.1 Controles Administrativos
 
